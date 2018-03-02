@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Use esta clase para escribir toda la lógica de sus controladores.
+*/
+
+class ClassName {    
+    
+    function __construct() {
+    }
+
+}

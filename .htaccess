@@ -1,0 +1,10 @@
+Options -Indexes
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?uri=$1 [NC,L,QSA]
+RewriteRule app/ index.php?uri=403 [NC,L,QSA]
+RewriteRule config/ index.php?uri=403 [NC,L,QSA]
+RewriteRule resources/ index.php?uri=403 [NC,L,QSA]
+RewriteRule routes/ index.php?uri=403 [NC,L,QSA]
+RewriteRule src/ index.php?uri=403 [NC,L,QSA]

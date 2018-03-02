@@ -1,0 +1,34 @@
+/* 
+    Created on : 10-jul-2017, 16:52:11
+    Author     : Starlly Software - http://starlly.com
+*/
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.container h1{
+    font-size: 50px;    
+}
+.container h1 small{
+    font-size: 25px;
+}
+.container #deplyn_welcome{    
+    display: block;
+    margin: 0 auto;
+    width: 465px;
+    margin-top: 20%;    
+}
+.container #deplyn_welcome img{
+    width: 150px;
+    float: left;
+}
+.container #deplyn_welcome h1{
+    margin-left: 25px;
+    float: left;
+    margin-top: 55px;    
+    line-height: 0.5em;
+    font-size: 85px;
+    text-align: right;
+}
+.container #deplyn_welcome h1 small{
+    font-size: 12px;    
+}
